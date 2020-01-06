@@ -1,0 +1,7 @@
+2020-01-06 11:48:23,852 INFO [root] [__init__.py(<module>:10)] - TEST日志器能不能正常工作
+2020-01-06 11:48:24,118 INFO [root] [login.py(test_login:28)] - 登录成功接口返回的数据为：{'success': True, 'data': '1bfd72e7-81f8-4c32-bad8-4ceef735a53d', 'message': '操作成功！', 'code': 10000}
+2020-01-06 11:48:24,118 INFO [root] [login.py(test_login:37)] - 保存的令牌是：{'Authorization': 'Bearer 1bfd72e7-81f8-4c32-bad8-4ceef735a53d', 'Content-Type': 'application/json'}
+2020-01-06 11:48:24,198 INFO [root] [test_emp.py(test01_add_emp:28)] - 添加员工接口数据为:{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 11:48:24,275 INFO [root] [test_emp.py(test02_query_emp:37)] - 查询员工接口的返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 11:48:24,354 INFO [root] [test_emp.py(test03_modify_emp:43)] - 修改员工接口的返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
+2020-01-06 11:48:24,432 INFO [root] [test_emp.py(test04_delete_emp:49)] - 删除员工接口的返回数据为：{'success': False, 'data': None, 'message': '抱歉，系统繁忙，请稍后重试！', 'code': 99999}
